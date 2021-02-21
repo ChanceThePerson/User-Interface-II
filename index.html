@@ -3,9 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<!-- Fonts: Inconsolata, Righteous, Orbitron, Cutive Mono, Shadows into Light-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+<!-- Fonts: Inconsolata, Righteous, Orbitron, Cutive Mono, Shadows into Light-->
+
+
+    <title>Chance's Portfolio</title>
 </head>
-<body>
+<style>
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+font-family:'Courier New', Courier, monospace, monospace;
+vertical-align: baseline;  
+}
+
+
+
+* {
+    background-color: #FFFED2;
+}
+h1 {
+    font-weight: bold;
+    font-size:35px; 
+    background-color: #C90015;
+    height: 100px;
+    color: #FFFED2;
+    padding-left: 20px;
+}
+ 
+
+
+a{
+    display: inline-flex;
+    background-color: #FFFED2;
+    color: #c90015;
+    font-weight: bold;
+    width: 80px;
+    height: 20px;
+    justify-content:center;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.flexNav {
+    background-color: #c90015;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
     
+
+.flexContainer {
+    background-color: #c90015;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    border-bottom: black solid 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondSectionImage{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    flex-direction: row;
+}
+
+.containerTwo {
+    flex-direction: row;
+    display: flex;
+}
+.secondSectionText {
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 30px;
+    font-family:Orbitron;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Orbitron;
+}
+
+ h3 > a{
+     border: black solid 1px;
+     background-color: #c90015;
+     color: #FFFED2;
+     text-align: center;
+     padding: 10px;
+     border-radius: 15px;
+     margin-right: 300px;
+     width: 150px;
+     height: 20px;
+ }
+ .containerThree {
+     display: flex;
+     justify-content: center;
+ }
+
+.bottomImages  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content:space-evenly;
+    width: 80%;
+
+}
+
+.image1 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+@media (min-width: 651px) and (max-width: 1354px){
+    .bottomImages  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content:space-evenly;
+    width: 80%;
+    border: 2px black solid; /* remove this */
+
+
+    }
+}
+
+.footerText {
+    font-weight: bold; 
+    background-color: #C90015;
+    height: 100px;
+    color: #FFFED2;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+
+    }
+     h4 {
+         text-align: center;
+         background-color: #c90015;
+     }
+
+    a {
+        padding-bottom:5px;
+        width:100px;
+        margin: 10px;
+    }
+    footer {
+        border-top: black 2px solid;
+    }
+</style>
+<body>
+   
+    <h1>CHANCE COLPITT</h1>
+    <div class="flexContainer">
+     <nav class="flexNav"> 
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a> 
+        <a href="./projects.html">Projects</a>
+      </nav>
+
+
+
+</div>
+<div class="containerTwo">
+<div class="secondSectionImage">
+    <img src="https://picsum.photos/800/500?grayscale">
+   <div class="secondSectionText">
+        <h2>CHANCE COLPITT</h2>
+        <br>
+        <h3><a href="./projects.html">My Projects</a></h3>
+        <br>
+<p>My name is Chance Colpitt. I was born in Tulsa, Oklahoma but I consider Denver, Colorado to be home.
+    I am new to coding, so follow along on the epic journey to success! The rest of my life starts now, stay tuned!</p>
+
+</div>
+</div>
+</div>
+    
+<div class="containerThree">
+<div class="bottomImages">
+   <div class="image1"> <img src="https://picsum.photos/seed/picsum/400/400"> </div>
+   <div class="image1"> <img src="https://picsum.photos/400/400/?blur=2"> </div>
+   <div class="image1"> <img src="https://picsum.photos/seed/picsum/400/400"> </div>
+   <div class="image1"> <img src="https://picsum.photos/400/400/?blur=2"> </div>
+   <div class="image1"> <img src="https://picsum.photos/400/400/?blur=2"> </div>
+   <div class="image1"> <img src="https://picsum.photos/seed/picsum/400/400"> </div>
+   <div class="image1"> <img src="https://picsum.photos/400/400/?blur=2"> </div>
+   <div class="image1"> <img src="https://picsum.photos/seed/picsum/400/400"> </div>
+   
+</div>
+</div>
+<footer>
+    <div class="footerText">
+    Like what you see?
+    </div>
+    <h4>
+        <a href="./contact.html">Contact Me</a>
+    </h4>
+
+
+</footer>
+
 </body>
 </html>
